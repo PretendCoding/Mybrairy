@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 const expressLayouts = require('express-ejs-layouts');
-const dotenv = require('dotenv');
+// const dotenv = require('dotenv');
 
-dotenv.config();
+// dotenv.config();
 
 const indexRouter = require('./routes/index');
 
